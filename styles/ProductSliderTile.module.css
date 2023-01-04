@@ -1,0 +1,105 @@
+.sliderTile {
+  height: 300px;
+  width: 300px;
+  margin: 5% 3.5%;
+  box-shadow: 0 1px 5px rgb(0, 0, 0);
+  background-color: #101010;
+}
+
+.sliderTileMain {
+  width: 300px;
+  height: 100%;
+}
+
+.sliderTileMainHeader {
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sliderTileMainHeaderTitle {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.sliderTileMainHeaderCategory {
+  color: #a5a5a5;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.sliderTileMainBody {
+  height: 200px;
+}
+
+.sliderTileMainFooter {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.sliderTileMainFooterMoreInformationCategory {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #a5a5a51c;
+  border-style: solid;
+  border-color: #a5a5a5;
+  border-width: 1px;
+  height: 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  transition: 0.75s;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sliderTileMainFooterMoreInformationCategory:hover {
+  background-color: violet;
+  color: white;
+  transition: 0.75s;
+  cursor: pointer;
+}
+
+.sliderTileMainFooterMoreInformationProduct {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #a5a5a51c;
+  border-style: solid;
+  border-color: #a5a5a5;
+  border-width: 1px;
+  height: 20px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  transition: 0.75s;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sliderTileMainFooterMoreInformationProduct:hover {
+  background-color: violet;
+  color: white;
+  transition: 0.75s;
+  cursor: pointer;
+}
+
+.sliderTileMainFooterPrice {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+}

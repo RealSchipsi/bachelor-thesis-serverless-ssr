@@ -1,0 +1,82 @@
+.dividerSmall {
+  height: 60px;
+}
+
+.inputContainer {
+  margin-bottom: 10px;
+  height: 120px;
+}
+
+.inputLabel {
+  margin-bottom: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.inputTile {
+}
+
+.input {
+  outline: none;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  font-size: 16px;
+  color: black;
+  padding: 10px 15px;
+  height: 30px;
+  width: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputMsg {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: lightcoral;
+}
+
+.buttonSubmitContainer {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: violet;
+  height: 30px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  transition: 0.75s;
+}
+
+.buttonSubmitContainer:hover {
+  background-color: rgba(238, 130, 238, 0.484);
+  color: white;
+  transition: 0.75s;
+  cursor: pointer;
+}
+
+.buttonSubmitHalfContainer {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: violet;
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  transition: 0.75s;
+}
+
+.buttonSubmitHalfContainer:hover {
+  background-color: rgba(238, 130, 238, 0.484);
+  color: white;
+  transition: 0.75s;
+  cursor: pointer;
+}

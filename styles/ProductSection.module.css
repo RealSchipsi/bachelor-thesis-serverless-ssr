@@ -1,0 +1,18 @@
+.productSection {
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productSection h1 {
+  padding-left: 3.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  color: violet;
+}
+
+.productSectionRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

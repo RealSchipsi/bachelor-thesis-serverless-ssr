@@ -1,0 +1,37 @@
+.signInContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signInTile {
+  height: 600px;
+  width: 900px;
+  box-shadow: 0 1px 5px rgb(0, 0, 0);
+  padding: 1.5% 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signInTile h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  color: white;
+}
+
+.signInTileInput {
+  height: 400px;
+}
+
+.signInTileLink {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.signInTileLink:hover {
+  cursor: pointer;
+}

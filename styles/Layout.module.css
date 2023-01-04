@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #101010;
+}
+
+.main {
+  width: 100vw;
+  max-width: 1920px;
+  border-left-color: #000000;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #000000;
+  border-right-style: solid;
+  border-right-width: 1.5px;
+}
+
+.main main {
+  padding-top: 80px;
+}

@@ -1,0 +1,21 @@
+.slider {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider h1 {
+  padding-left: 3.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  color: violet;
+}
+
+.sliderTiles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}

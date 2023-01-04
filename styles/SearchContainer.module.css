@@ -1,0 +1,71 @@
+.searchContainer {
+  height: 1080px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.searchContainerHeader {
+  width: 1400px;
+  height: 50px;
+  box-shadow: 0 1px 5px rgb(0, 0, 0);
+  background-color: #101010;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainerInput {
+  width: 1350px;
+}
+
+.searchContainerInput input {
+  width: 1350px;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  border: none;
+  background-color: #101010;
+  outline: none;
+  color: #ffffff;
+}
+
+.searchContainerInput input::placeholder {
+  color: #a5a5a5;
+}
+
+.searchContainerInputIcon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchContainerList {
+  width: 1400px;
+  display: none;
+}
+
+.searchContainerList li {
+  list-style: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  line-height: 70px;
+  padding: 0 20px;
+  border-bottom-color: #505050;
+  border-bottom-style: solid;
+  border-width: 1.5px;
+  color: #d4d4d4;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.searchContainerList li:hover {
+  color: violet;
+}

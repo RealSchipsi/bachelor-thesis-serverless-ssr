@@ -1,0 +1,75 @@
+.hero {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.heroLink {
+  width: 200px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.172);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-color: #d4d4d4;
+  border-width: 1px;
+  border-style: solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.heroLeft {
+  width: 46%;
+  background-image: url("/hero1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 2%;
+}
+
+.heroLeftLink {
+}
+
+.heroLink:hover {
+  color: #a5a5a5;
+  border-color: #a5a5a5;
+}
+
+.heroRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroRightTop {
+  height: 50%;
+  background-image: url("/hero2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 4%;
+}
+
+.heroRightTopLink {
+}
+
+.heroRightBottom {
+  height: 50%;
+  background-image: url("/hero3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 4%;
+}
+
+.heroRightBottomLink {
+  background-color: #a5a5a592;
+}

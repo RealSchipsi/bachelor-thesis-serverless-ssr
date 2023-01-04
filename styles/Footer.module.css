@@ -1,0 +1,10 @@
+.footer {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-top-color: #202020;
+  border-top-width: 2px;
+  border-top-style: solid;
+  width: 100vw;
+  max-width: 1920px;
+}
