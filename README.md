@@ -2,7 +2,7 @@ This is an example for a lightweight E-Commerce app developed with [Next.js](htt
 
 ## Intention
 
-The focus of the project is to analyze the combination of server side rendering and serverless hosting.
+The focus of the project is to analyze the app performance when combining server side rendering and serverless hosting on the edge.
 
 ## Disclaimer
 
