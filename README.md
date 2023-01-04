@@ -1,24 +1,24 @@
-## Intention
+# Intention
 
 The focus of the project is to analyze the app performance when combining server side rendering and serverless hosting on the edge.
 
-## Disclaimer
+# Disclaimer
 
 The app is for testing and research purposes only. No liability is assumed for any costs incurred or incorrect code. Execution at your own risk!
 
-## The project contains
+# The project contains
 - `E-Commerce-App`
 - `Artillery-Test-Scripts`
 
-## E-Commerce-App
+# E-Commerce-App
 This is an example for a lightweight E-Commerce app developed with [Next.js](https://nextjs.org/) and hosted on the edge with AWS Lambda@Edge.
 
-# Technologies
+## Technologies
 - [Next.js for server side rendering](https://nextjs.org/)
 - [AWS Lambda@Edge for serverless hosting](https://aws.amazon.com/de/lambda/edge/)
 - [Serverless Nextjs Plugin for deployment](https://www.serverless.com/plugins/serverless-nextjs-plugin)
 
-# Getting Started
+## Getting Started
 
 1. Install node_modules:
 
@@ -37,7 +37,7 @@ npx next dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Deploy on AWS
+## Deploy on AWS
 
 1. Install [serverless package globally](https://www.serverless.com/plugins/serverless-nextjs-plugin)
 
@@ -78,7 +78,7 @@ npx serverless
 
 8. After successfull Deployment, open your application in your browser with the url of your AWS CloudFront Distribution
 
-## Artillery-Test-Scripts
+# Artillery-Test-Scripts
 1. Install node_modules:
 
 ```bash
@@ -93,7 +93,7 @@ npm install -g artillery
 yarn install -g artillery
 ```
 
-# Execute scripts
+3. Execute scripts
 ```bash
 # run script
 npx artillery run  *.yml
