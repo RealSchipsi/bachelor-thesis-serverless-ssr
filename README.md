@@ -8,6 +8,11 @@ The focus of the project is to analyze the app performance when combining server
 
 The app is for testing and research purposes only. No liability is assumed for any costs incurred or incorrect code. Execution at your own risk!
 
+## Technologies
+- [Next.js for server side rendering](https://nextjs.org/)
+- [AWS Lambda@Edge for serverless hosting](https://aws.amazon.com/de/lambda/edge/)
+- [Serverless Nextjs Plugin for deployment](https://www.serverless.com/plugins/serverless-nextjs-plugin)
+
 ## Getting Started
 
 1. First clone the repository
