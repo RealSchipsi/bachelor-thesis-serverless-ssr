@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) hosted on the edge with AWS Lambda@Edge.
+
+## Disclaimer
+
+The app is for testing and research purposes only. No liability is assumed for any costs incurred or incorrect code. Execution at your own risk!
 
 ## Getting Started
+
+1. First clone the repository
+
+2. Install node_modules:
+
+```bash
+npm install
+# or
+yarn install
+```
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# start next.js app in development environment
+npx next dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Deploy on AWS
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Install [serverless package globally]("https://www.serverless.com/plugins/serverless-nextjs-plugin")
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm install -g serverless
+# or
+yarn install -g serverless
+```
 
-## Learn More
+2. Create a free AWS Account [here]("https://aws.amazon.com/de/free/")
 
-To learn more about Next.js, take a look at the following resources:
+3. Export AWS credentials as environment variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Create a free MongoDB Account [here]("https://www.mongodb.com/cloud/atlas/register")
 
-## Deploy on Vercel
+5. Deploy Next.js App serverless
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npx serverless
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. Configure `next.config.js` with your credentials for `PRODUCTION`
+
+```bash
+- HOST_URL: "CLOUDFRONT_DISTRIBUTION_URL", # url for API
+- MONGODB_URI:"MONGO_DB_URI", # your connection string in your MongoDB account
+- JWT_KEY: "JWT_KEY", # just type in a secret key
+```
+
+7. Deploy Next.js App serverless again with correct HOST_URL in `next.config.js`
+
+```bash
+npx serverless
+```
+
+8. After successfull Deployment, open your application in your browser with the url of your AWS CloudFront Distribution
