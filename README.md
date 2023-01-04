@@ -1,5 +1,9 @@
 This is an example for a lightweight E-Commerce app developed with [Next.js](https://nextjs.org/) and hosted on the edge with AWS Lambda@Edge.
 
+## Intention
+
+The focus of the project is to analyze the combination of server side rendering and serverless hosting.
+
 ## Disclaimer
 
 The app is for testing and research purposes only. No liability is assumed for any costs incurred or incorrect code. Execution at your own risk!
