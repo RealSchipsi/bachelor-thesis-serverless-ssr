@@ -54,7 +54,7 @@ npx serverless
 
 ```bash
 - HOST_URL: "CLOUDFRONT_DISTRIBUTION_URL", # url for API
-- MONGODB_URI:"MONGO_DB_URI", # your connection string in your MongoDB account
+- MONGODB_URI:"MONGO_DB_URI", # connection string in your MongoDB account
 - JWT_KEY: "JWT_KEY", # just type in a secret key
 ```
 
