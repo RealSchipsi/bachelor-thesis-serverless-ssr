@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    HOST_URL: "CLOUDFRONT_DISTRIBUTION_URL",
+    HOST_URL: "http://localhost:3000",
     MONGODB_URI:
       "MONGO_DB_URI",
     JWT_KEY: "JWT_KEY",
