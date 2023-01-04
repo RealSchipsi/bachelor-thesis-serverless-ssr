@@ -28,7 +28,7 @@ npm install
 yarn install
 ```
 
-First, run the development server:
+2. Run the development server:
 
 ```bash
 # start next.js app in development environment
