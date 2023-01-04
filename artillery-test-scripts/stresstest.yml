@@ -1,0 +1,36 @@
+config:
+  target: "https://d1fje5s5cr9ixm.cloudfront.net"
+  payload:
+    path: "testCustomers.csv"
+    fields:
+      - "email"
+      - "password"
+    loadAll: true
+    name: signup
+scenarios:
+  - name: "Sign Up"
+    flow:
+      - loop:
+          - log: "New user for {{$loopElement.email}}"
+          - post:
+              url: "/api/customers"
+              headers:
+                Accept: "application/json"
+                Content-Type: "application/json"
+              json:
+                email: "{{ $loopElement.email }}"
+                password: "{{ $loopElement.password }}"
+        over: signup
+  - name: "Sign in"
+    flow:
+      - loop:
+          - log: "Sign in user for {{$loopElement.email}}"
+          - post:
+              url: "/api/signin"
+              headers:
+                Accept: "application/json"
+                Content-Type: "application/json"
+              json:
+                email: "{{ $loopElement.email }}"
+                password: "{{ $loopElement.password }}"
+        over: signup

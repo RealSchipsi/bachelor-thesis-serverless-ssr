@@ -1,0 +1,26 @@
+config:
+  target: "https://d1fje5s5cr9ixm.cloudfront.net"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: Warm up
+    - duration: 120
+      arrivalRate: 5
+      rampTo: 50
+      name: Ramp up load
+    - duration: 600
+      arrivalRate: 50
+      name: Sustained load
+  payload:
+    path: "testRoutes.csv"
+    fields:
+      - "route"
+    loadAll: true
+    name: "routes"
+scenarios:
+  - flow:
+      - loop:
+          - log: "Route for {{ $loopElement.route }}"
+          - get:
+              url: "{{ $loopElement.route }}"
+        over: routes
