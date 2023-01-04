@@ -27,7 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy on AWS
 
-1. Install [serverless package globally]("https://www.serverless.com/plugins/serverless-nextjs-plugin")
+1. Install [serverless package globally](https://www.serverless.com/plugins/serverless-nextjs-plugin)
 
 ```bash
 npm install -g serverless
@@ -35,14 +35,14 @@ npm install -g serverless
 yarn install -g serverless
 ```
 
-2. Create a free AWS Account [here]("https://aws.amazon.com/de/free/")
+2. Create a free AWS Account [here](https://aws.amazon.com/de/free/)
 
 3. Export AWS credentials as environment variables
 
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
 
-4. Create a free MongoDB Account [here]("https://www.mongodb.com/cloud/atlas/register")
+4. Create a free MongoDB Account [here](https://www.mongodb.com/cloud/atlas/register)
 
 5. Deploy Next.js App serverless
 
