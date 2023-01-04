@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) hosted on the edge with AWS Lambda@Edge.
+This is an example for a lightweight E-Commerce app developed with [Next.js](https://nextjs.org/) and hosted on the edge with AWS Lambda@Edge.
 
 ## Disclaimer
 
