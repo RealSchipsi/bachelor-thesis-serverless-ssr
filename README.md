@@ -20,7 +20,7 @@ This is an example for a lightweight E-Commerce app developed with [Next.js](htt
 
 ## Getting Started
 
-1. Install node_modules:
+1. Install node_modules
 
 ```bash
 npm install
@@ -28,7 +28,7 @@ npm install
 yarn install
 ```
 
-2. Run the development server:
+2. Run the development server
 
 ```bash
 # start next.js app in development environment
@@ -79,7 +79,7 @@ npx serverless
 8. After successfull Deployment, open your application in your browser with the url of your AWS CloudFront Distribution
 
 # Artillery-Test-Scripts
-1. Install node_modules:
+1. Install node_modules
 
 ```bash
 npm install
