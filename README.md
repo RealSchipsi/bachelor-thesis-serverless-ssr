@@ -37,7 +37,7 @@ yarn install -g serverless
 
 2. Create a free AWS Account [here](https://aws.amazon.com/de/free/)
 
-3. Export AWS credentials as environment variables
+3. Export AWS credentials as environment variables (you can find them in your AWS profile)
 
 - AWS_ACCESS_KEY_ID
 - AWS_SECRET_ACCESS_KEY
