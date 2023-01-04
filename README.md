@@ -50,7 +50,7 @@ yarn install -g serverless
 npx serverless
 ```
 
-6. Configure `next.config.js` with your credentials for `PRODUCTION`
+6. After first Deployment configure `next.config.js` with your credentials for `PRODUCTION`
 
 ```bash
 - HOST_URL: "CLOUDFRONT_DISTRIBUTION_URL", # url for API
