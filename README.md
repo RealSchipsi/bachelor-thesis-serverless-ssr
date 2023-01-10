@@ -99,7 +99,7 @@ yarn install -g artillery
 npx artillery run  *.yml
 ```
 
-# Sources to images in public folder
+# Sources to images in public folder of E-Commerce-App
 
 The images are for demonstration purposes only
 
