@@ -4,7 +4,7 @@ The focus of the project is to analyze the app performance when combining server
 
 # Disclaimer
 
-The app is for testing and research purposes only. No liability is assumed for any costs incurred or incorrect code. Execution at your own risk!
+The app is for testing and research purposes only. No liability is assumed for any costs incurred or incorrect code. Execution at your own risk! The 
 
 # The project contains
 - `E-Commerce-App`
@@ -98,3 +98,11 @@ yarn install -g artillery
 # run script
 npx artillery run  *.yml
 ```
+
+# Sources to images in public folder
+
+## The images are for demonstration purposes only
+
+- (hero1.jpg) https://www.shutterstock.com/de/image-photo/young-adult-bodybuilder-doing-weight-lifting-308873630
+- (hero2.jpeg) https://cutewallpaper.org/28x/c3n2muexn/1575021202.html
+- (hero3.jpeg) https://wp-test-dev.s3.amazonaws.com/public/uploads/2020/11/Workout-Pico-das-Torres-scaled-3.jpg
