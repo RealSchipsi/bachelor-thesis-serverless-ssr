@@ -101,7 +101,7 @@ npx artillery run  *.yml
 
 # Sources to images in public folder
 
-## The images are for demonstration purposes only
+The images are for demonstration purposes only
 
 - (hero1.jpg) https://www.shutterstock.com/de/image-photo/young-adult-bodybuilder-doing-weight-lifting-308873630
 - (hero2.jpeg) https://cutewallpaper.org/28x/c3n2muexn/1575021202.html
