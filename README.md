@@ -4,7 +4,7 @@ The focus of the project is to analyze the app performance when combining server
 
 # Disclaimer
 
-The app is for testing and research purposes only. No liability is assumed for any costs incurred or incorrect code. Execution at your own risk! The 
+The app is for testing and research purposes only. No liability is assumed for any costs incurred or incorrect code. Execution at your own risk! 
 
 # The project contains
 - `E-Commerce-App`
