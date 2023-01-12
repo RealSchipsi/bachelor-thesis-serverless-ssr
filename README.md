@@ -11,7 +11,7 @@ The app is for testing and research purposes only. No liability is assumed for a
 - `Artillery-Test-Scripts`
 
 # E-Commerce-App
-This is an example for a lightweight E-Commerce app developed with [Next.js](https://nextjs.org/) and hosted on the edge with [AWS Lambda@Edge](https://aws.amazon.com/de/lambda/edge/).
+This is an example for a lightweight E-Commerce app developed with [Next.js](https://nextjs.org/) and hosted on the edge with [AWS Lambda@Edge](https://aws.amazon.com/lambda/edge/).
 
 ## Technologies
 - [Next.js for server side rendering](https://nextjs.org/)
